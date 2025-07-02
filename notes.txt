@@ -265,6 +265,9 @@
         - github : hosting service provider
             - host static websites (HTML/CSS, HTML/CSS/JS, Reactjs, Vuejs)
             - see the output of the website
+            - CI/CD
+                - Continuous Integration
+                - Continuous Deployment
 
         - git commands
             - if creating repository (repo) for the first time, then the commands that will be used from CLI (Command Line Interface)
@@ -279,3 +282,9 @@
                 git add .
                 git commit -m "first commit"
                 git push -u origin main
+
+        - Project Links
+            - Source Code Link
+                https://github.com/srinanoo/urban-pro-evangeline.git
+            - Output Link
+                https://srinanoo.github.io/urban-pro-evangeline/
