@@ -288,3 +288,11 @@
                 https://github.com/srinanoo/urban-pro-evangeline.git
             - Output Link
                 https://srinanoo.github.io/urban-pro-evangeline/
+
+
+        - HTML Complete Reference
+            https://developer.mozilla.org/en-US/docs/Web/HTML
+
+
+    CSS
+        - why there was not official version releases after v3 (initial draft came in 1999)
