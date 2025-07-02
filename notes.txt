@@ -1,0 +1,281 @@
+17-06-2025:
+
+    Website
+    Webpage
+    Domain Name
+        - DNS
+    Hosting Space/Server
+    Online
+
+    Basic Coding Standards
+        - Meaningful Names
+            - folder, file, variable, define...
+        - Naming Conventions
+            - 6 popular ways
+                - lowercase
+                - UPPERCASE
+                - lowerCamelCase
+                    Java, JavaScript...
+                        aboutUs.html
+                        contactUs.html
+                - UpperCamelCase or Pascal Case
+                    .Net, ASP,...
+                        AboutUs.html
+                        ContactUs.html
+                - dash case (hyphen)
+                    about-us.html
+                - snake case (underscore)
+                    about_us.html
+        - Code Indentations
+        - Project Folder Structure
+            - Frontend
+                .html
+                pictures
+                css
+                js
+
+    Website
+        - multiple webpages...
+            home.html or index.html
+            about us.html
+                aboutus.html
+                about_us.html
+                about-us.html
+                aboutUs.html
+                AboutUs.html
+            contact us
+            product
+
+    SEO - Search Engine Optimization
+
+        fullStackDeveloperinChennai.html
+        full_stack_developer_in_chennai.html
+        full-stack-developer-in-chennai.html
+
+        full stack
+
+
+    ecommerce
+        - project1
+            - index.html
+            - assignment1.html
+            - test1.html
+        - project2
+        - assignment1
+        - assignment2
+
+    project
+        - index.html
+        - homepage.html
+        - home.html
+
+    Server / Project Environment (configured in the server)
+        - default.htm
+        - default.html
+        - index.htm
+        - index.html
+        - home.html
+
+
+    HTML
+        - HyperText Markup Language
+
+        What is Markup Language?
+            - placeholder
+                <h1>....</h1>
+        How many languages we have?
+            - Markup
+                HTML (.html), XML (.xml)
+                    HTML - produces output, XML - only as file
+                    HTML - tags are pre-defined, XML - user defined
+                    HTML - unstructed, XML - more structed
+                        HTML - <br>, XML - <br />
+                    JSX
+                        <input />
+            - Programming
+                C, C++, Java, Python, PHP...
+            - Scripting
+                - Client Side
+                    - JavaScript (Vanilla, Module, Common)
+                        - ReactJS
+                - Server Side
+                    - JavaScript
+                        - NodeJS
+
+    - Who is Bernes Lee? - created HTML, but what else has done?
+
+    - What is Syntax?
+        - certain way or format or structure (respresentation)
+
+    HTML
+        - Tags (aka container aka elements)
+            - Syntax
+                <...> => opening tag
+                    .... content or container ... text
+                </...> => closing tag
+
+            - Types
+                - Paired Tag
+                    <NAME OF THE TAG>
+                        ... content or container...
+                    </NAME OF THE TAG>
+                    eg:
+                        <h1> => opening tag
+                            ... content ...
+                        </h1> => closing tag
+                - Unpaired Tag or Self Closing Tag
+                    <NAME OF THE TAG>
+                    or
+                    <NAME OF THE TAG />
+                    eg:
+                        <br>
+                        or
+                        <br />
+            - Kinds of Tags
+                - Basic (heading, paragraphs...)
+                - Formatting (strong, em, ins, del...)
+            - Classification
+                - Block Tag vs Inline Tag
+                    - Block Tag
+                        - always start in a new line
+                        - irrespective of the content, it will occupy the entire row
+                    - Inline Tag
+                        - occupies in the same line
+                        - whatever content is there, that will be the size of the container/tag
+                        - if 2 inline tags are present, then they can stack next to each other (in the same line)
+
+
+    Most Difficult question to ask?
+        "WHY??"
+
+    W W W H
+        What it is?
+        Why it is?
+        Where it is used?
+        How it is used?
+
+    Deprecated
+        - marked for deletion
+            HTML 4 and 5
+                <b>
+                <strong>
+
+
+18-06-2025:
+
+    HTML Attributes
+        - Types
+            - Paired
+                key/value
+                    Syntax:
+                        name="value"
+            - Unpaired (aka Self Closing)
+                key
+                    Syntax:
+                        name
+            
+            Eg:
+                <tagname name="value">
+        - Classification
+            - Core
+                - id
+                - class
+                - style
+                - title
+            - Generic
+                - align
+                - width
+                - height
+                - href
+            - Custom
+                data-<name>
+
+    Path of the file
+        - location of the file
+            - Types
+                - Relative Path
+                    - from the project folder structure, you mention sub-folder or the file itself...
+                    - best suitable for frontend
+                - Absolute Path
+                    - actual file location
+                    - not helpful for frontend because it works in http protocal, not file protocol
+                    - preferable in backend
+                - Physical Path
+
+    Sizing
+        - Width
+        - Height
+
+    Spacing (Gaps)
+        - Padding
+        - Margin
+
+    Measurements
+        - px
+            - only mention the value, not with "px"
+        - %
+            - you will mention the value and with the "%"
+
+    Project #1:
+        This is the template which was shown in the session:
+        https://srinanoo.github.io/templates/templates/workshop-with-bootstrap-html.png
+
+
+23-06-2025:
+
+    HTML Entities
+        - always start with "&"
+            - &copy; - copyright symbol
+            - &reg; - trademark reg symbol
+            - &nbsp; - non breaking space
+
+    CRIME in Web Developement
+        - Horizontal Scrollbar in the browser
+
+    Project #2:
+        Named Anchor
+            - 1st
+                - Same Page, with Named Anchor
+            - 2nd
+                - Different pages, with Named Anchor
+
+27-06-2025:
+
+    Project #3:
+        For this week's Template Project, work on this template using Tables with bgcolors wherever needed.
+        https://srinanoo.github.io/templates/templates/meet-me.png
+
+
+
+02-07-2025:
+
+    Semantic Layout Tags
+        - header
+        - footer
+        - section
+        - article
+        - aside
+        - nav
+        - main
+
+    Git / GitHub
+        - git : version control manager
+            - upload files regardless of any technology
+            - see the source code alone
+        - github : hosting service provider
+            - host static websites (HTML/CSS, HTML/CSS/JS, Reactjs, Vuejs)
+            - see the output of the website
+
+        - git commands
+            - if creating repository (repo) for the first time, then the commands that will be used from CLI (Command Line Interface)
+                git init
+                git add .
+                git commit -m "first commit"
+                git branch -M main
+                git remote add origin https://github.com/srinanoo/urban-pro-evangeline.git
+                git push -u origin main
+
+            - if you want to update or add files to the existing repository (repo)
+                git add .
+                git commit -m "first commit"
+                git push -u origin main
