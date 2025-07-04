@@ -296,3 +296,41 @@
 
     CSS
         - why there was not official version releases after v3 (initial draft came in 1999)
+
+
+04-07-2025:
+
+    CSS
+        Specificity
+            0 = universal selector
+            1 = type selector
+            10 = class selector
+            100 = id selector
+            1000 = inline
+
+        Basics
+            Measurements
+                px
+                %
+
+                pt
+                em
+                rem
+
+                mm
+                cm
+                m
+                pc
+
+                vh
+                vw
+            
+            Colors
+                Basic
+                RGB
+                    RGBA
+                HEX
+                HSL
+                    HSLA
+
+            Inherit vs Initial

@@ -6,16 +6,59 @@
     <title>Document</title>
 
     <!-- External CSS / Styles -->
-    <link href="css/styles.css" rel="stylesheet">
+    <!-- <link href="css/styles.css" rel="stylesheet"> -->
 
     <!-- <style type="text/css"></style> -->
     
     <!-- Internal CSS / Styles -->
-    <style></style>
+    <style>
+        /* h1 {
+            color: red !important;
+        } */
+        
+        h1 {
+            color: red;
+        }
+        h2 {
+            color: blue;
+        }
+        ul {
+            color: green;
+        }
+        div {
+            color: maroon;
+        }
+
+        * {
+            color: orange;
+        }
+        #colorPurple {
+            color: purple;
+            padding: 20px;
+        }
+        .colorViolet {
+            color: violet;
+        }
+        .bgColorPurple {
+            background-color: purple;
+            padding: 20px;
+        }
+    </style>
 </head>
 <body>
     
-    <h1 style="">Heading</h1> <!-- Inline CSS / Styles -->
+    <!-- <h1 style="color: green;">Heading</h1>  -->
+    <!-- Inline CSS / Styles -->
+
+    <h1 class="colorViolet" id="colorPurple">Heading 1</h1>
+    <h2>Heading 2</h2>
+    <p class="colorViolet bgColorPurple">Pargraph</p>
+    <ul>
+        <li>List Item</li>
+        <li>List Item</li>
+        <li>List Item</li>
+    </ul>
+    <div class="bgColorPurple">Div</div>
     
 </body>
 </html>
