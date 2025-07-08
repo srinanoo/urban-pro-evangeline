@@ -334,3 +334,76 @@
                     HSLA
 
             Inherit vs Initial
+
+
+08-07-2025:
+
+    CSS
+        - Measurements
+            em vs rem
+
+        - Initial vs Inherit
+
+        - Colors
+            - Basic
+                White and Black
+            - OTHERS
+                RGB (Red + Green + Blue)
+                HEX
+                HSL
+
+        - CSS
+            - Named Colors (16 was old, now we have millions...)
+            - RGB
+                method:
+                    rgb()
+                        Value:
+                            0-255 (256)
+                        %:
+                            0-100%
+
+                        eg:
+                            rgb(0, 0, 0)
+                            rgb(255, 255, 255)
+                            rgb(255, 0, 0)
+                            rgb(0, 255, 0)
+                            rgb(0, 0, 255)
+                            rgb(209, 99, 192)
+                    
+                    rgba()
+                        red + Green + blue + alpha (aka Opacity aka Transparency)
+                            alpha: 
+                                0-1 (0.5 => 50%, 0.35 => 35%)
+                                0-100%
+                            rgba(255, 0, 0, 0.36)
+            - HEX
+                Value Range
+                    0-9, A-F
+                - 6 digit or 8/9 digit
+                    #000000
+                    #ffffff
+                    #ff0000
+                    #00ff00
+                    #0000ff
+                    #ced0fe => #cfcefec7
+                - 3 digit
+                    #000
+                    #f00
+                    #0f0
+                    #00f
+                    #cdf
+            - HSL / HSLA
+                Hue + Saturation + Lightness + Alpha
+                    Hue -> circle (degree)
+                    Saturation -> %
+                    Lightness -> %
+
+        - Font Types
+            serif
+            sans-serif
+            cursive
+            monospace
+            fantasy
+
+    CSS Complete Reference:
+        https://developer.mozilla.org/en-US/docs/Web/CSS
