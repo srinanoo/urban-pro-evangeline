@@ -407,3 +407,13 @@
 
     CSS Complete Reference:
         https://developer.mozilla.org/en-US/docs/Web/CSS
+
+
+10-07-2025:
+    CSS Fonts
+        - File Formats
+            .ttf - True Type Font (Edge (IE))
+            .otf - Open Type Font (Firefox (Mozilla))
+            .eot - Embedded Open Type (Palmtops)
+            .woff - Web Open File Format (Opera, some browsers...)
+            .svg - Scalar Vector Graphics (modern)
