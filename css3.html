@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            color: red;
+        }
+        /* div {
+            color: blue;
+        }
+        li {
+            color: green;
+        } */
+        /* div li p {
+            color: orange;
+        } */
+        /* div > li > p {
+            color: orange;
+        } */
+        /* div li > p {
+            color: orange;
+        } */
+        /* div > li p {
+            color: orange;
+        } */
+
+        .row {
+            background-image: url('images/background.jpeg');
+        }
+        .row, .box {
+            border: 1px solid #000;
+            /* height: 100px; */
+        }
+        .box {
+            /* width: 80%;
+            margin: 0 10%; */
+            /* width: 75%;
+            margin: 0 12.5%; */
+            width: 80%;
+            margin: 0 auto;
+            /* background-color: red; */
+            text-align: center;
+            padding: 40px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- <div>Div 1</div>
+
+    <p>Paragraph 1</p>
+
+    <div>
+        <p>Paragrah 2</p>
+
+        <ul>
+            <li>
+                <p>Paragraph 3</p>
+            </li>
+            <li>
+                <div>
+                    <p>Paragraph 3.1</p>
+                </div>
+            </li>
+        </ul>
+
+        <p>Paragraph 4</p>
+    </div>
+
+    <p>Paragraph 5</p> -->
+
+    <table border="1" width="100%" cellspacing="0">
+        <tbody>
+            <tr>
+                <td>Fluid</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <table border="1" width="80%" align="center" cellspacing="0">
+        <tbody>
+            <tr>
+                <td>Box</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <table border="1" width="100%" cellspacing="0">
+        <tbody>
+            <tr>
+                <td>
+                    <table border="1" width="80%" align="center" cellspacing="0">
+                        <tbody>
+                            <tr>
+                                <td>Fluid / Box</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+
+    
+    <div class="row">
+        Fluid
+    </div>
+    <section class="row">
+        Fluid
+    </section>
+    <article class="row">
+        Fluid
+    </article>
+    <br>
+    <br>
+    <div class="box">
+        Box
+    </div>
+    <br><br>
+    <div class="row">
+        <div class="box">
+            Fluid / Box
+        </div>
+    </div>
+    <br><br><br><br><br>
+</body>
+</html>
