@@ -417,3 +417,9 @@
             .eot - Embedded Open Type (Palmtops)
             .woff - Web Open File Format (Opera, some browsers...)
             .svg - Scalar Vector Graphics (modern)
+
+
+17-07-2025:
+    Project #3:
+        Template to convert using CSS Flexbox, Display (block, inline, inline-block) with Sizing and Spacing:
+            https://srinanoo.github.io/templates/templates/explorer.png
