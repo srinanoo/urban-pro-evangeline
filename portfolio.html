@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+        }
+        body, h3 {
+            margin: 0;
+        }
+        .section-title {
+            padding-bottom: 20px;
+        }
+        .bgdark {
+            background-color: darkgray;
+        }
+        .bglight {
+            background-color: lightgrey;
+        }
+        .box {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+        .row {
+            display: flex;
+        }
+        .cols-2 {
+            width: 50%;
+        }
+        .cols-3 {
+            width: 33%;
+        }
+        .text-right {
+            text-align: right;
+        }
+        .text-center {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="fluid bgdark">
+        <div class="box">
+            <div class="row">
+                <div class="cols-2">Col 1</div>
+                <div class="cols-2 text-right">Col 2</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Project / Experience -->
+    <section class="fluid bglight">
+        <div class="box">
+            <h3 class="text-center section-title">Projects/Experience</h3>
+
+            <div class="row">
+                <div class="cols-3">Col 1</div>
+                <div class="cols-3">Col 2</div>
+                <div class="cols-3">Col 3</div>
+            </div>
+            <div class="row">
+                <div class="cols-3">Col 1</div>
+                <div class="cols-3">Col 2</div>
+                <div class="cols-3">Col 3</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section class="fluid bgdark">
+        <div class="box">
+            <h3 class="text-center section-title">About Me</h3>
+            <div class="row">
+                <div class="cols-2">Col 1</div>
+                <div class="cols-2">Col 2</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="fluid bglight">
+        <div class="box text-center">
+            &copy; Copyright 2025.
+        </div>
+    </footer>
+    
+</body>
+</html>
