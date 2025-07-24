@@ -5,20 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+        }
+        img {
+            width: 100%;
+        }
         .row {
             background-color: purple;
             /* padding: 5px; */
             display: flex;
             flex-wrap: wrap;
             /* flex-direction: row; */
-            /* justify-content: end; */
+            justify-content: space-between;
             /* align-items: stretch; */
             /* align-content: stretch; */
+            /* column-gap: 10px;
+            row-gap: 10px; */
+            /* gap: 10px 15px; */
+            /* gap: 10px 5px; */
         }
         .row article {
             background-color: pink;
             /* margin: 5px; */
-            width: 33.33333333%;
+            width: 31.5%;
         }
     </style>
 </head>
@@ -34,7 +47,7 @@
         <article>
             Col 3
         </article>
-        <!-- <article>
+        <article>
             Col 4
         </article>
         <article>
@@ -60,7 +73,7 @@
         </article>
         <article>
             Col 12
-        </article> -->
+        </article>
     </section>
     
 </body>

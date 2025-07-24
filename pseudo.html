@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a {
+            /* display: none; */
+            text-decoration: none;
+        }
+        a:hover {
+            color: red;
+            /* display: block; */
+        }
+        .div1:hover {
+            background-color: yellow;
+            cursor:copy;
+        }
+        .input:focus {
+            background-color: red;
+        }
+
+        /* .listItems li:first-child {
+            background-color: orange;
+        }
+        .listItems li:last-child {
+            background-color: green;
+        } */
+
+        /* .listItems li:nth-child(3) {
+            background-color: green;
+        } */
+         
+        /* .listItems li:nth-child(3n+2) {
+            background-color: orange;
+        } */
+
+        /* .listItems li:nth-child(even) {
+            background-color: orange;
+        } */
+
+        /* p::first-letter {
+            font-size: 40px;
+        } */
+
+        .divItems div::before {
+            content: "";
+            background-image: url(images/bullet-1.png);
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+        }
+        .divItems div::after {
+            content: " - ";
+        }
+    </style>
+</head>
+<body>
+
+    <!-- <a href="facebook.com">Click Here</a>
+
+    <div class="div1">Div Container</div>
+
+    <input type="text"><br>
+    <input type="text"><br>
+    <input type="text" class="input"><br>
+    <input type="text"><br>
+    <input type="text"><br> -->
+
+    <!-- <ul class="listItems">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul> -->
+
+    <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab obcaecati, modi quo exercitationem repudiandae nisi facere doloremque deleniti. Nihil ipsam, deserunt dolores esse ut incidunt in eaque veritatis maxime. Nihil.</p> -->
+
+    <ul class="listItems">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+    </ul>
+
+    <div class="divItems">
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+        <div>Item 4</div>
+        <div>Item 5</div>
+    </ul>
+    
+</body>
+</html>
