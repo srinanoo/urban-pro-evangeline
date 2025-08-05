@@ -433,3 +433,69 @@
             ... content ...
             ::after => append in JS
         </tagname> => closing tag
+
+
+05-08-2025:
+
+    max-width -> img
+        min-width -> ?
+        max-height
+        min-height
+
+    Responsive
+        - Devices
+            - Laptop (Desktop) (2560px)
+            - Tablet
+            - Mobile (320px)
+        - Screen Sizes
+            - Mobile (3 - S, M, L)
+                - Portrait
+                - Landscape
+            - Tablets
+                - Portrait
+                - Landscape
+            - Laptop
+
+            - Guided Values (followed by: Bootstrap Framework)
+                576px
+                768px
+                992px
+                1200px
+                1400px
+            - Custom Values
+                500px
+                700px
+                900px
+                1200px
+                1400px
+
+        - Breakpoints
+            - xs
+            - sm
+            - md
+            - lg
+            - xl
+            - xxl
+
+        - Breakpoints x Screen Size
+            - xs : <576px
+            - sm : >576px
+            - md : >768px
+            - lg : >992px
+            - xl : >1200px
+            - xxl : >1400px
+        
+        - Pick
+            - Mobile - xs
+            - Laptop - lg
+            - Tablet - md
+
+        - Range
+            < : max-width
+            > : min-width
+            < = > : min-width and max-width
+
+        - Syntax:
+            @media only screen and (max-width: 576px) {}
+
+            @media (max-width: 576px) {}

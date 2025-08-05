@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        img {
+            max-width: 100%;
+        }
+        .row1, .row2, .row3, .row4 {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: purple;
+        }
+        .row1 div {
+            background-color: pink;
+            width: 25%;
+        }
+        .row2 div {
+            background-color: pink;
+            width: 33.33333333%;
+        }
+        .row3 div {
+            background-color: pink;
+            width: 50%;
+        }
+        .row4 div {
+            background-color: pink;
+        }
+
+        .menu ul {
+            list-style: none;
+            padding: 0;
+        }
+        .menu li {
+            display: inline-block;
+        }
+        .menu .menu-icon {
+            display: none;
+        }
+
+        @media only screen and (max-width: 576px) {
+            .row1 div, .row2 div, .row3 div {
+                width: 100%;
+            }
+            .menu ul {
+                display: none;
+            }
+            .menu .menu-icon {
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="menu">
+        <ul>
+            <li>Menu 1</li>
+            <li>Menu 1</li>
+            <li>Menu 1</li>
+            <li>Menu 1</li>
+            <li>Menu 1</li>
+            <li>Menu 1</li>
+            <li>Menu 1</li>
+        </ul>
+        <img src="images/bullet-1.png" alt="" class="menu-icon">
+    </div>
+
+    <div class="row1">
+        <div>
+            <img src="images/background.jpeg" alt="">
+            <p>Col 1</p>
+        </div>
+        <div>
+            <img src="images/background.jpeg" alt="">
+            <p>Col 1</p>
+        </div>
+        <div>
+            <img src="images/background.jpeg" alt="">
+            <p>Col 1</p>
+        </div>
+        <div>
+            <img src="images/background.jpeg" alt="">
+            <p>Col 1</p>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="row2">
+        <div>
+            <img src="images/background.jpeg" alt="">
+            <p>Col 1</p>
+        </div>
+        <div>
+            <img src="images/background.jpeg" alt="">
+            <p>Col 1</p>
+        </div>
+        <div>
+            <img src="images/background.jpeg" alt="">
+            <p>Col 1</p>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="row3">
+        <div>
+            <img src="images/background.jpeg" alt="">
+            <p>Col 1</p>
+        </div>
+        <div>
+            <img src="images/background.jpeg" alt="">
+            <p>Col 1</p>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="row4">
+        <div>
+            <img src="images/background.jpeg" alt="">
+            <p>Col 1</p>
+        </div>
+    </div>
+    
+</body>
+</html>
