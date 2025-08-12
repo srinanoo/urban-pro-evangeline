@@ -499,3 +499,14 @@
             @media only screen and (max-width: 576px) {}
 
             @media (max-width: 576px) {}
+
+
+
+12-08-2025:
+
+    CSS Positioning
+        - static
+        - relative
+        - absolute
+        - fixed
+        - sticky
