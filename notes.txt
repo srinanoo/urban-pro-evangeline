@@ -510,3 +510,28 @@
         - absolute
         - fixed
         - sticky
+        
+
+
+16-08-2025:
+
+    JavaScript:
+        - it is a client side and server side scripting language
+        - it is untyped (or loosly typed) language
+        - it is synchronise language
+
+    Types of JavaScript
+        - Vanilla JS
+            - original JS
+            - not use any 3rd party dependencies
+        - Common JS (old developers)
+            - will include 3rd party dependencies
+            - before ES6 Syntax
+        - Module JS (modern developers)
+            - will include 3rd party dependencies
+            - use ES6 and above
+
+    What is ES?
+        - ECMA Script
+            - European Computer Manufacturers Association Script
+                - Governing Bodies of JavaScript in the European region
