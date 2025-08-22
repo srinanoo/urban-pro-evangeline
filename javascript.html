@@ -34,11 +34,148 @@
 
         // Before ES6 and After ES6 -> 2014
 
-        var a; // before ES6
-        let b; // after ES6
+        // var a; // before ES6
+        // let b; // after ES6
 
-        var a; // declaration
-        a = 10;
+        // var a; // declaration
+        // a = 10; // initialisation or assignment or definition
+
+        // var a = 10; // declaration + initialisation
+        // a = 20; // reassignment or redefinition
+
+        // var a = 10; // declaration + initialisation
+        // // console.log(a);
+        // var a = 20; // redeclaration + initialisation
+        // console.log(a);
+
+        // let a; // declaration
+        // a = 10; // initialisation or assignment or definition
+
+        // let a = 10; // declaration + initialisation
+        // a = 20; // reassignment or redefinition
+
+        // let a = 10;
+        // console.log(a);
+        // let a = 20; // redeclaration + initialisation
+
+        // const c = 10; // constant will not change once declared and assigned
+        // console.log(c);
+
+        // const d; // declaration alone is not possible in const
+
+        // const c = 10;
+        // const c = 20; // redeclaration is not possible
+
+        // const c = 10;
+        // c = 20; // reassignment is not possible
+        // console.log(c);
+
+        // let a = 10;
+        // console.log(a);
+        // console.log(typeof(a));
+
+        // a = "this is a string";
+        // console.log(a);
+        // console.log(typeof(a));
+
+        // a = 10.5566
+        // console.log(a);
+        // console.log(typeof a);
+
+        // a = true;
+        // console.log(a);
+        // console.log(typeof(a));
+
+        // a = [10, "string", false];
+        // console.log(a);
+        // console.log(typeof a);
+
+        // a = {
+        //     "id": 1,
+        //     "name": "Dinesh",
+        //     "active": true
+        // }
+        // console.log(a);
+        // console.log(typeof a);
+
+        // a = null;
+        // console.log(a);
+        // console.log(typeof a);
+
+        // let b;
+        // console.log(b);
+
+        // console.log(typeof undefined);
+        // console.log(typeof null);
+
+        // c = 10;
+        // console.log(c);
+
+        // class Parent {
+        //     #id = 1;
+        //     constructor() {
+        //         this.id = 1; // member variables | properties
+        //     }
+
+        //     getId() { // member methods | functionality / behaviour
+        //         return this.id;
+        //     }
+        // }
+        // obj1 = new Parent();
+        // obj1.getId();
+
+        // {
+        //     "id": 1,
+        //     "name": "string"
+        // }
+
+        // Scope
+        // var a = 10; // global
+        // console.log(a);
+
+        // testFunc();
+        // function testFunc() {
+        //     console.log(a);
+        //     var b = 20; // local within testFunc()
+        //     console.log(b);
+
+        //     function B() {
+        //         console.log(a);
+        //         console.log(b);
+        //     }
+        //     B();
+        // }
+
+        // console.log(a);
+        // console.log(b);
+
+        // var a = 10;
+        // var b = "10";
+        // console.log(a, typeof a);
+        // console.log(b, typeof b);
+        // console.log(a == b); // checks only for values inside
+        // console.log(a === b); // checks both values and data types
+
+        var a = 10;
+        var b = 20;
+        // console.log(!(a > b));
+        // console.log(!a);
+
+        if(a > b)
+            console.log("a is greater than b");
+        else
+            console.log("b is greater than a");
+
+        (a > b)
+            ?
+                console.log("a is greater than b")
+            :
+                (a < b)
+                    ?
+                        console.log("b is greater than a")
+                    :
+                        console.log("b is greater than a");
+
     </script>
     <noscript>JS is not working</noscript>
     

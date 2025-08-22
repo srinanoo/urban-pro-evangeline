@@ -535,3 +535,49 @@
         - ECMA Script
             - European Computer Manufacturers Association Script
                 - Governing Bodies of JavaScript in the European region
+
+
+22-08-2025:
+
+    JS
+        - difference between var, let and const
+
+        - Data Types
+            - Primitive
+                int
+                shortInt
+                bigInt
+                String
+                Char
+                float
+                double
+                bool
+                boolean
+            - Non-Primitive
+                array
+                objects
+                namespace
+                tuple
+
+            - Java
+                int i = 1;
+                i = "string";
+                String s = "string";
+                Boolean b = true
+            
+            - JavaScript
+                i = 1;
+                s = "string";
+                b = true
+
+                - Data Types
+                    - number (int and float)
+                    - string (string and char)
+                    - boolean (true and false)
+                    - object (array or object)
+                    - undefined
+
+                - Scope
+                    - global
+                    - local
+                    - block => ES6
