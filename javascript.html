@@ -156,25 +156,215 @@
         // console.log(a == b); // checks only for values inside
         // console.log(a === b); // checks both values and data types
 
-        var a = 10;
-        var b = 20;
+        // var a = 10;
+        // var b = 20;
         // console.log(!(a > b));
         // console.log(!a);
 
-        if(a > b)
-            console.log("a is greater than b");
-        else
-            console.log("b is greater than a");
+        // if(a > b)
+        //     console.log("a is greater than b");
+        // else
+        //     console.log("b is greater than a");
 
-        (a > b)
-            ?
-                console.log("a is greater than b")
-            :
-                (a < b)
-                    ?
-                        console.log("b is greater than a")
-                    :
-                        console.log("b is greater than a");
+        // (a > b)
+        //     ?
+        //         console.log("a is greater than b")
+        //     :
+        //         (a < b)
+        //             ?
+        //                 console.log("b is greater than a")
+        //             :
+        //                 console.log("b is greater than a");
+
+        // console.time(); // start a timer before the following code...
+        // if(a > b) {
+        //     console.log("a is greater than b");
+        //     console.log("a is greater than b");
+        // } else {
+        //     console.log("b is greater than a");
+        //     console.log("b is greater than a");
+        // }
+        // console.timeEnd(); // stopper of the time after the above code...
+
+        // console.time();
+        // (a > b)
+        //     ?
+        //         console.log("a is greater than b")
+        //     :
+        //         (console.log("b is greater than a"), console.log("b is greater than a"));
+        // console.timeEnd();
+
+        // var a = 10;
+        // var b = "10";
+        // if(a < b) {
+        //     console.log("a is lesser than b");
+        // } else if(a > b) {
+        //     console.log("a is greater than b");
+        // } else if(a === b) {
+        //     console.log("a is equal to b");
+        // } else {
+        //     // console.log("b is lesser than or equal a");
+        //     // console.log("a is not lesser than b");
+        //     console.log("a is neither lesser nor greater than b");
+        // }
+
+        // var a = 10.6151;
+        // if(Number.isInteger(a)) {
+        //     console.log("Fine");
+        // } else {
+        //     console.log("Please send only Whole/Integer Number");
+        // }
+
+        // // var rows = "10.51565";
+        // var rows = "18 yrs old 25";
+        // // if(typeof rows === 'number') {
+        // //     console.log("Fine");
+        // // } else {
+        // //     console.log("Please send only numbers");
+        // // }
+        // // rows = parseInt(rows);
+        // rows = parseFloat(rows);
+        // console.log(rows, typeof rows);
+
+        // var str = "This is a string";
+        // console.log(str);
+        // var str = 'This is a string';
+        // console.log(str);
+        // str = "This is I'm string";
+        // console.log(str);
+        // str = 'This is "a" string';
+        // console.log(str);
+        // str = "I'm 18 \"yrs\" old"; // \ backslash is called a escape sequence
+        // console.log(str);
+        // str = 'I\'m 18 "yrs" old'; // \ backslash is called a escape sequence
+        // console.log(str);
+        // str = `This is 'a " string`; // ES6 | String Template Literals
+        // console.log(str);
+
+        // var a = 20;
+        // var b = "This is a number: " + a + " entered by the user.";
+        // console.log(b);
+
+        // var i = 100;
+        // var c = `This is a number ${a} entered ${i} by the user.`;
+        // console.log(c);
+
+        // var str = "THIS is a test string with this repeated";
+        // // console.log(str.length);
+        // // console.log(str[0]);
+        // // console.log(str[39]);
+        // // console.log(str.charAt(0));
+        // // console.log("This is ".concat("test string", " another string"));
+        // // console.log("This is " + "test string " + "another string");
+
+        // console.log(str.indexOf("this"));
+        // console.log(str.indexOf("this", 1));
+        // // console.log(str.lastIndexOf("this"));
+        // // console.log(str.lastIndexOf("this", 26));
+        // // console.log(str.indexOf("din"));
+        // // console.log(str.lastIndexOf("dinesh"));
+
+        // console.log(str.search("this"));
+        // console.log(str.search(/this/i));  // RegEx or Regular Expressions
+
+        // console.log(str.slice(0, 3));
+        // console.log(str.slice(1, 3));
+        // console.log(str.slice(5));
+        // console.log(str.slice(-4, -1));
+        // console.log(str.slice(-5));
+
+        // console.log(str.substr(0, 3));
+        // console.log(str.substr(1, 3));
+
+        // console.log(str.substring()); // before ES6
+
+        // var str = "this is a test string with this repeated";
+        // console.log(str);
+        // console.log(str.replace("is", "NEW"));
+        // console.log(str.replaceAll("is", "NEW"));
+
+        // var age = `I'm 18 yrs old`;
+        // console.log(age.length);
+
+        // age = `                        I'm 18           yrs old             `;
+        // console.log(age.length);
+        // age1 = age.trim();
+        // console.log(age1.length);
+        // age.trimLeft();
+
+        // console.log(str.toUpperCase());
+        // var arr = str.split(" ");
+        // console.log(arr);
+
+        // var arr = [1, 2, 3, 4, 5];
+        // console.log(arr);
+        // arr[5] = 6;
+        // console.log(arr);
+        // arr[3] = 0;
+        // console.log(arr);
+        // arr[8] = 8;
+        // console.log(arr);
+        // console.log(arr[6]);
+        // console.log(arr[10]);
+
+        // var arr = [1000, "Dinesh", true];
+        // console.log(arr);
+        // console.log(arr.length);
+
+        // var a = [1, 2, 3, 4, 5];
+        // var b = [6, 7, 8, 9, 10];
+        // var c = a + b;
+        // console.log(c);
+        // var d = a.concat("a", "b", "c", b); // before ES6
+        // console.log(d);
+
+        // // ... spread operator (array and objects) | rest parameter (functions)
+        // var e = [...a, ...b, "a", "b", "c"]; // from ES6
+        // console.log(e);
+
+        // var a = [1, 2, 3, 4, 5];
+        // console.log(a);
+        // var removed = a.pop();
+        // console.log(a);
+        // console.log(removed);
+
+        // var temp = a.push("a", "b", "c");
+        // console.log(a);
+        // console.log(temp);
+        // console.log(a.length);
+
+        // var removed = a.shift();
+        // console.log(a);
+        // console.log(removed);
+
+        // var temp = a.unshift("a", "b", "c");
+        // console.log(a);
+        // console.log(temp);
+        // console.log(a.length);
+
+        // a.splice(1, 0, "a", "b", "c");
+        // console.log(a);
+
+        // var removed = a.splice(2, 2);
+        // console.log(a);
+        // console.log(removed);
+
+        // var removed = a.splice(3, 2, "a", "b");
+        // console.log(a);
+        // console.log(removed);
+        
+        // console.log(a.toString());
+        // console.log(a.join("||"));
+
+        // let results = `total=100||||correct=88||||560=D||$||561=B||$||562=B||$||563=D||$||564=B||$||565=C||$||566=C||$||567=C||$||568=D||$||569=B||$||570=C||$||571=C||$||572=B||$||573=D||$||574=A||$||575=C||$||576=C||$||577=A||$||578=D||$||579=A||$||580=B||$||581=D||$||582=C||$||583=C||$||584=B||$||585=D||$||586=C||$||587=D||$||588=B||$||589=A||$||590=D||$||591=D||$||592=B||$||593=A||$||594=A||$||595=C||$||596=D||$||597=C||$||598=D||$||599=B||$||600=A||$||601=C||$||602=B||$||603=A||$||604=B||$||605=D||$||606=C||$||607=D||$||608=A||$||609=D||$||610=D||$||611=B||$||612=B||$||613=C||$||614=C||$||615=C||$||616=B||$||617=B||$||618=C||$||619=A||$||620=B||$||621=C||$||622=D||$||623=D||$||624=B||$||625=B||$||626=A||$||627=C||$||628=A||$||629=D||$||630=C||$||631=D||$||632=C||$||633=D||$||634=A||$||635=B||$||636=B||$||637=D||$||638=A||$||639=A||$||640=C||$||641=C||$||642=C||$||643=C||$||644=B||$||645=B||$||646=C||$||647=B||$||648=B||$||649=D||$||650=B||$||651=A||$||652=B||$||653=C||$||654=B||$||655=B||$||656=A||$||657=A||$||658=C||$||659=A||$||`;
+        // let resultsQA = results.split("||||");
+        // console.log(resultsQA);
+        // console.log(resultsQA[0]);
+        // console.log(resultsQA[1]);
+        // let resultsResponses = resultsQA[2].split("||$||")
+        // console.log(resultsResponses);
+
+        // let final = resultsQA.join("");
 
     </script>
     <noscript>JS is not working</noscript>
