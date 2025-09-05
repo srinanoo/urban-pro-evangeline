@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        // Functions
+        // let a = 10;
+        // function testFunc(a=1, b, c=10) {
+        //     // let sum = 10+ 10;
+        //     // return 10 + 10;
+        //     console.log(a);
+        // }
+        // testFunc(, 20, 30); // runtime
+
+        // Different Types of Functions
+            // Regular / Named Function
+            nameOfTheFunction(); // Execution Phase
+            function nameOfTheFunction(param1, param2) {
+                console.log("Named Function");
+                // return;
+            }
+            
+            // Anonymous Function
+            let nameOfTheFunction1 = function(param1, param2) {
+                // console.log("Anonymous Function");
+                return param1 + param2;
+            }
+            let result1 = nameOfTheFunction1(1,1);
+            console.log(result1);
+            
+            // Arrow Function
+            let nameOfTheFunction2 = (param1, param2) => {
+                // console.log("Arrow Function");
+                return param1 + param2;
+            }
+            let result2 = nameOfTheFunction2(2,2);
+            console.log(result2);
+
+            let nameOfTheFunction3 = (param1, param2) => param1 + param2;
+            let result3 = nameOfTheFunction3(2,2);
+            console.log(result3);
+
+            let nameOfTheFunction4 = param1 => param1 + 10;
+            let result4 = nameOfTheFunction4(2);
+            console.log(result4);
+            
+        
+    </script>
+    
+</body>
+</html>
